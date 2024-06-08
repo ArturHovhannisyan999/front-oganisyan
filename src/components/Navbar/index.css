@@ -1,0 +1,19 @@
+nav {
+    margin-top: 1rem;
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    width: 35%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    font-weight: bold;
+    cursor: pointer;
+}

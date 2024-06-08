@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.products {
+    width: 76%;
+}
+
+.products>div {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem
+
+}
+
+.search-input {
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
